@@ -43,12 +43,12 @@ body::before{
 #box_1{
     text-align: center;
     left: 1rem;
+    top: 0.8rem;
     padding:20px 2px 60px 10px;
     /* top right bottom left */
 }
 #box_2{
     left: -9rem;
-    top:-1rem;
     padding: 35px 30px 10px 30px;
 }
 #box_3{
@@ -84,7 +84,7 @@ body::before{
 }
 /* form box */
 #form{
-    border: 5px dashed red;
+    border: 7px dashed red;
     margin: 10px;
     display: inline-block;
     background-color:white;
@@ -99,6 +99,50 @@ margin: 1rem;
 }
 .inputs input{
     text-align: center;
+}
+/* Menu Box */
+#menu_box{
+    display: flex;
+    justify-content: center;
+}
+#menu{
+    width: 30%;
+    padding: 15px 0px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+/* Menu List Box */
+#menu_container{
+    padding: 5rem 0px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.menus li{
+    padding-left: 5rem;
+    color: #502e8b;
+    font-size: 20px;
+}
+.menus h1{
+    text-align: center;
+    color: #502e8b;
+    padding: 1rem;
+    font-size: 50px;
+}
+.menus hr{
+    height: 1px;
+    background-color: red;
+}
+.menus{
+    width: 25rem;
+    border: 3px solid #36731d;
+    border-radius: 30px;
+    display: inline-block;
+    background-color: #62fbfd;
+    margin: 30px;
+}
+.ul_box{
+    padding: 1rem 1rem 1rem 2rem;
 }
 @media only screen and (max-width:1366px){
     
