@@ -30,6 +30,7 @@ body::before{
 }
 /* 3 Black boxes */
 .b_box{
+    width: auto;
     color: white;
     font-size: 35px;
     font-style: italic;
@@ -98,4 +99,10 @@ margin: 1rem;
 }
 .inputs input{
     text-align: center;
+}
+@media only screen and (max-width:1366px){
+    
+    .b_box{
+        font-size: 32px;
+    }
 }
